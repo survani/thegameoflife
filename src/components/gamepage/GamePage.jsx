@@ -1,9 +1,14 @@
 import React from "react";
+import Grid from "../grid/Grid";
+import Navigation from "../navigation/navigation";
 
 const GamePage = () => {
   return (
     <>
-      <div></div>
+      <div>
+        <Navigation />
+        <Grid />
+      </div>
     </>
   );
 };
