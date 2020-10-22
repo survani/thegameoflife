@@ -1,4 +1,4 @@
-# thegameoflife
+# Conway's Game of Life
 game of life by Giovani Garfias
 
 ## Rules of Conway's Game of Life
