@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BgImage,
+  BgImage, ButtonContainer,
   Container,
   PlayButton,
   SubText,
@@ -15,9 +15,18 @@ const LandingPage = () => {
       <Container>
         <TextContainer>
           <Title> Conway's Game of Life</Title>
-          <Link to="/game">
-            <PlayButton> Get Started </PlayButton>
-          </Link>
+          <ButtonContainer>
+            <Link to="/game">
+              <PlayButton> Play </PlayButton>
+            </Link>
+            <Link to="/about">
+              <PlayButton> About </PlayButton>
+            </Link>
+            <Link to="/about">
+              <PlayButton> Rules </PlayButton>
+            </Link>
+          </ButtonContainer>
+
           <SubText>
             This game was created by John Horton Conway in 1970. This is my
             implementation of the game of life.

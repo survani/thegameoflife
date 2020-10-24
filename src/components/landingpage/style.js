@@ -21,14 +21,21 @@ export const TextContainer = styled.div `
   position: absolute;
   width: 100%;
   z-index: 1;
+  font-family: 'Staatliches', cursive;
+`
+
+export const ButtonContainer = styled.div `
+display: flex;
 `
 
 export const Title = styled.h1 `
-font-size: 4rem;
+font-size: 6rem;
+margin-bottom: 1rem;
 `
 
 export const SubText = styled.p `
 margin-top: 3rem;
+font-size: 1.5rem;
 
 `
 
@@ -40,6 +47,7 @@ border: 2px solid white;
 width: 15rem;
 padding: 0.5rem;
 border-radius: 50rem;
+margin-right: 1rem;
 :hover {
 background: white;
 color: black;
